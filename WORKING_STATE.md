@@ -2,15 +2,16 @@
 
 ## Now
 
-**Unit:** 0.6.0-mechanical-refuse — closed
-**Branch:** `unit/0.6.0-mechanical-refuse`
-**Learning gate:** owner accepted 2026-08-19 implementer run (2026-08-20)
-**Reconstruct:** pass (2026-08-20). No snag files.
-**Next:** Spec the adapter unit, starting with Import (how a product repo receives the checker, version/update, `--force` / existing-checker). Freeze that unit’s contract before any implementation. Do not add `install-hooks.sh` or a GitHub workflow under 0.6.0.
+**Unit:** (none) — 0.6.0-mechanical-refuse merged to `main` (`80db07e`, PR #1)
+**Branch:** `main` — do not implement here. Next unit gets `unit/<X>-<slug>`.
+**Learning gate:** locked until the adapter unit is specced and unlocked
+**Reconstruct:** 0.6.0 pass (2026-08-20). No snag files.
+**Next:** Spec the adapter unit, starting with Import (how a product repo receives the checker, version/update, `--force` / existing-checker). Freeze that contract, write the gate, then implement. No `install-hooks.sh` or GitHub workflow until that unit says so.
 
-**Gate file:** `docs/agent-os/gates/0.6.0-mechanical-refuse.md`
+**Gate file (closed):** `docs/agent-os/gates/0.6.0-mechanical-refuse.md`
 **Checker:** `pack/scripts/agent-os-check.sh`
 **Fixtures:** `scripts/check-fixtures/run.sh` (30/30; owner accepted)
+**VERSION:** still `0.5.0` until you ship a kernel release
 
 ## Follow-on (adapter unit; do not weaken the MMU)
 
@@ -21,6 +22,6 @@
 
 ## Session
 
-**What we did:** Owner accepted gate Result. Closed 0.6.0 on the MMU + matrix. Adapters out of scope. Recorded four adapter constraints as follow-on.
-**What changed:** gate Result + Follow-on; this file. `VERSION` still 0.5.0.
-**Blocked:** none. Human owns git. Reconstruct passed; merge to `main` is still yours.
+**What we did:** Merged PR #1. Deleted `unit/0.6.0-mechanical-refuse`. Synced `main`.
+**What changed:** this file only (resume pointer).
+**Blocked:** none. Human owns git. Do not start adapter code on `main`.
