@@ -2,17 +2,25 @@
 
 ## Now
 
-**Unit:** 0.6.0-mechanical-refuse
+**Unit:** 0.6.0-mechanical-refuse — closed
 **Branch:** `unit/0.6.0-mechanical-refuse`
-**Learning gate:** matrix green; owner confirms gate Result
-**Next:** Review checker. Then adapters (hooks, import, CI) if this unit includes them — or stop here.
+**Learning gate:** owner accepted 2026-08-19 implementer run (2026-08-20)
+**Reconstruct:** pass (2026-08-20). No snag files.
+**Next:** Spec the adapter unit, starting with Import (how a product repo receives the checker, version/update, `--force` / existing-checker). Freeze that unit’s contract before any implementation. Do not add `install-hooks.sh` or a GitHub workflow under 0.6.0.
 
 **Gate file:** `docs/agent-os/gates/0.6.0-mechanical-refuse.md`
 **Checker:** `pack/scripts/agent-os-check.sh`
-**Fixtures:** `scripts/check-fixtures/run.sh` (30/30 matched, implementer-run)
+**Fixtures:** `scripts/check-fixtures/run.sh` (30/30; owner accepted)
+
+## Follow-on (adapter unit; do not weaken the MMU)
+
+1. Detached HEAD / branch identity — adapter contract, not checker.
+2. `--staged` needs more fixtures before a pre-commit hook.
+3. INVALID-parent recovery stays fail-closed unless MMU contract changes later.
+4. Import does not distribute `scripts/agent-os-check.sh`; solve that before hook/CI claims.
 
 ## Session
 
-**What we did:** Split the tree into eight commits. Seeded 0.5.0 on `main`. Froze the probe before the MMU (`962feba` has stories, no checker). Re-ran the stranger command after `run.sh` landed.
-**What changed:** KERNEL contract sentence, gate Result, `pack/scripts/agent-os-check.sh`, `scripts/check-fixtures/run.sh`, this file
-**Blocked:** none for the matrix. Human owns git. Owner still confirms Result.
+**What we did:** Owner accepted gate Result. Closed 0.6.0 on the MMU + matrix. Adapters out of scope. Recorded four adapter constraints as follow-on.
+**What changed:** gate Result + Follow-on; this file. `VERSION` still 0.5.0.
+**Blocked:** none. Human owns git. Reconstruct passed; merge to `main` is still yours.
