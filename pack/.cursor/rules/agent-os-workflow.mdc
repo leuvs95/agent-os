@@ -1,0 +1,41 @@
+---
+description: Unit lifecycle — unlock, catalog, gate, build, close. Apply when starting a session, planning a unit, or ending work.
+alwaysApply: true
+---
+
+# Workflow
+
+## Session start
+
+1. Read `AGENTS.md` then `WORKING_STATE.md` (resume from **Next**).
+2. Read `docs/agent-os/KERNEL.md`, then `docs/north-star/CONSTITUTION.md` + current ladder row (stub → `/build-north-star` lock).
+3. Confirm off `main`. If `WORKING_STATE.md` is missing, stop.
+
+## No code until
+
+- Current unit is a row on `docs/north-star/LADDER.md` (else `/amend-north-star`)
+- Unit Spec approved (eight questions below)
+- `/unit-unlock` complete for this unit
+- Learned risks for this unit are in `docs/agent-os/CATALOG.md` (lenses asked; no empty taxonomy)
+- `docs/agent-os/gates/<unit>.md` exists with a probe the implementer did not write after the fact
+
+Deadline mode may defer teaching. It never defers learned risk log, gates, secrets, approval, ladder membership, or the build-north-star lock.
+
+## Unit Spec
+
+1. What **risk** does this unit retire?
+2. Responsible for?
+3. Out of scope?
+4. Contract/artifact exposed later?
+5. Files?
+6. Smallest commit split?
+7. How verified? (point at the gate file)
+8. What breaks later if designed poorly? (point at learned catalog rows)
+
+Branch: `unit/<X>-<slug>`.
+
+## Session close (no git)
+
+Update `WORKING_STATE.md` only: did / changed / blocked / next / learning gate / catalog + gate pointers.
+Offer `/reconstruct` on unit close. Encode catches into the project catalog.
+Do not add journals or principle docs unless asked.

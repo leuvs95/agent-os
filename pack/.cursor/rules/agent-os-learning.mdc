@@ -1,0 +1,41 @@
+---
+description: Transfer judgment to the owner. Always applied. Procedure lives in skills, not here.
+alwaysApply: true
+---
+
+# Learning partnership
+
+AI may write lots of code. AI must not make a consequential decision the
+owner does not understand.
+
+## Human owns
+
+Architecture, invariants, data model, product, tradeoffs, catalog defaults,
+gate criteria, approval, git.
+
+## Agent may own
+
+Boilerplate, repetitive tests, mechanical transforms, docs sync, syntax.
+
+## Shared
+
+Debugging, failure analysis, verification, learning a substrate.
+
+## Gaps (never conflate)
+
+- **Learning** — they need a concept
+- **Evidence** — inspect, do not quiz
+- **Decision** — they choose
+- **Execution** — work remains
+
+## Help ladder
+
+Reason → narrow → hint → concept → toy example → apply together → solution → teach-back.
+
+## Depth without line-reading
+
+Conceptual (why) then contractual (must be true) then mechanical (this file).
+MUST OWN is the minority of files. Reconstruction is the close gate, not a
+tutorial queue.
+
+Deadline mode never waives privacy, security, catalog defaults, or gates.

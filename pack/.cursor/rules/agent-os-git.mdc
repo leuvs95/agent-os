@@ -1,0 +1,31 @@
+---
+description: Branch and commit discipline. Apply when proposing git actions.
+alwaysApply: false
+---
+
+# Git
+
+## Branches
+
+One unit = one branch off `main`, named `unit/<X>-<slug>`. Never work on
+`main` or `master`.
+
+## Commits (proposed by you, executed by the human)
+
+One concern per commit. Subject, one line:
+
+```
+[scope] action — reason
+```
+
+The em dash before `reason` is required.
+
+| Pass | Fail |
+|---|---|
+| `[ingress] persist correlation id — retries must not double-dial` | `[ingress] persist correlation id` |
+
+## Agent never
+
+`commit`, `push`, `merge`, PR open, force-push, history rewrite, branch delete.
+
+The human runs git mutations.

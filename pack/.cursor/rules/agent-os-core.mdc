@@ -1,0 +1,33 @@
+---
+description: Agent-os kernel. Always applied. Product rules may add invariants; they must not weaken these.
+alwaysApply: true
+---
+
+# Kernel
+
+Protocol. The owner orchestrates. Speed is allowed. Unexplained production
+writes are not. Full text: `docs/agent-os/KERNEL.md`.
+
+## Firing order
+
+1. **Staff + lenses** — `/build-north-star` until constitution v1.0. Six lenses; learned-only risks.
+2. **P0** — `/failure-catalog` on named substrates. No hub library.
+3. **P1** — gate file before code. Implementer does not author PASS after the fact.
+4. **P2** — reconstruct at unit close, no diff.
+5. **P3** — encode catches into one project artifact.
+6. **P4** — `/substrate-sprint` the first time a named substrate writes.
+7. **P5** — session close is WORKING_STATE + gate evidence.
+
+## Always
+
+- Stub constitution ⇒ lock. Pack repo exempt.
+- Unit on the ladder, ordered by risk retired. Off-ladder ⇒ `/amend-north-star`.
+- Never claim a check passed that did not run. Summaries are not approval.
+
+## Never (without explicit approval)
+
+- Git mutations (commit, push, merge, PR, force-push). Human owns git.
+- Work on `main` / `master`.
+- Add a substrate, vendor, or secret scheme not named on the constitution table.
+- Print secrets.
+- Edit constitution or ladder except via `/amend-north-star`.

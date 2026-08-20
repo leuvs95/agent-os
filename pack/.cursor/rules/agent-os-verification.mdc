@@ -1,0 +1,32 @@
+---
+description: Independent verification. Apply before reporting a unit or fix complete, and whenever the agent says PASS.
+alwaysApply: true
+---
+
+# Verification
+
+The implementing agent does not get to grade their own exam.
+
+## PASS means
+
+Evidence produced by a **pre-written** gate in `docs/agent-os/gates/<unit>.md`,
+run in this session, with output the owner can see.
+
+Not PASS: a paragraph, a hosted markdown stamp, “tests I just added went green,”
+or a summary of intent.
+
+## A unit is done only when
+
+1. The gate file existed before implementation (or the owner explicitly waived with reason).
+2. The gate was run. Paste or attach the result. If it could not run, name the gap — do not invent a command.
+3. Happy path holds. Real failures still surface. Empty stays empty.
+4. Catalog defaults still hold (size, age, uniqueness, scheduler presence, auth).
+5. Previously working paths still behave.
+
+## Independent check
+
+Prefer a second agent or the owner to run the gate. If you must run it, you
+still cannot change the gate’s pass criteria to match the code.
+
+If this repo has documented test commands, run those too. Do not invent a
+stack because another repo has it.

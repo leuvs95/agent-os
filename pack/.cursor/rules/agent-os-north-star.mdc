@@ -1,0 +1,30 @@
+---
+description: North Star is constitution + ladder. Stub means build-north-star lock. Apply when planning, unlocking, or the work disagrees with docs/north-star/.
+alwaysApply: true
+---
+
+# North Star
+
+The North Star is **not** the planning chat, a status dashboard, or a dated
+filename. It is two current files plus a versioned amendment log.
+
+- `docs/north-star/CONSTITUTION.md` — purpose, non-goals, invariants. Rare.
+- `docs/north-star/LADDER.md` — unit sequence and contracts. Changes more.
+- `docs/north-star/AMENDMENTS/` — every pivot. Git history is not enough.
+
+Always those paths. Never `NORTH_STAR_2026-07-30.md`. Status (shipped /
+deployed / proven) lives in `WORKING_STATE.md` and gates, not the constitution.
+
+## Always
+
+- Session start: if those files are missing or still the stub, enter
+  `/build-north-star` (staff the table, six lenses) and stay there (this pack
+  repo is exempt). Refuse application code until the owner accepts v1.0.
+- Ladder is ordered by **risk retired**. Off-ladder work → `/amend-north-star`.
+- An invariant conflict → stop. Do not “interpret.” Propose an amendment.
+- Implementation never edits constitution or ladder except by accepted amendment.
+
+## Amendments
+
+No silent drift. `/amend-north-star` injects the six kernel lenses. Bump the
+in-file version. Leave the amendment record.
