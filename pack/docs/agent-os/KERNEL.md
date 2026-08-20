@@ -18,4 +18,4 @@ Protocol only. No product folklore. No hub library dumped into projects.
 4. **Learned-only** — catalog rows and substrate files are what seats actually found, plus a one-liner when a lens found nothing (`asked; no risk; reconsider when`).
 5. **Ladder** — ordered by **risk retired**, sliced by contract, never by layer.
 6. **Write here** — `docs/agent-os/substrates/<named>.md` is generated in the **project**. Do not import templates.
-7. **Verify** — gate before code; implementer does not grade PASS; reconstruct at close; human owns git.
+7. **Verify** — gate before code; implementer does not grade PASS; reconstruct at close; human owns git. Mechanical refuse: `scripts/agent-os-check.sh` (prompts document; the check enforces; bypass is not PASS). Parent tree determines the epoch; the proposed/resulting tree must still be structurally valid. `accepted` is monotonic: once established in history, a later commit may neither revert it to stub nor remove the constitution. Evaluate commit-by-commit, never as one aggregate diff.
