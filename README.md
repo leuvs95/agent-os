@@ -13,6 +13,10 @@ is accepted.
 
 See `pack/docs/agent-os/KERNEL.md` (copied to `docs/agent-os/KERNEL.md` on import).
 
+This repo’s own law: `docs/north-star/CONSTITUTION.md` (accepted v1.0).
+Destination / current release: `docs/north-star/NORTH_STAR.md`. Risk order:
+`docs/north-star/LADDER.md`. v1 is ladder rows 1–3 only.
+
 - **Lock** until constitution v1.0
 - **Staff** ≤5 seats from the vision (TPM, one facilitator)
 - **Six lenses** (always ask, learned-only rows)
