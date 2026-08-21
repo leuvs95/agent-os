@@ -7,15 +7,19 @@ Kernel for AI-native building. Import the protocol. Do not import folklore.
 ```
 
 Then open that project and run `/build-north-star` until constitution v1.0
-is accepted.
+is accepted. After import, the one stranger command is:
+
+```bash
+scripts/agent-os-check.sh --range <base>...<head>
+```
 
 ## Kernel
 
 See `pack/docs/agent-os/KERNEL.md` (copied to `docs/agent-os/KERNEL.md` on import).
 
-Mechanical refuse is `pack/scripts/agent-os-check.sh`. Import stamps
-`docs/agent-os/VERSION` from this repo’s `VERSION` file. It does not yet
-copy the checker to `scripts/agent-os-check.sh` (ladder row 3).
+Mechanical refuse is `scripts/agent-os-check.sh` (source: `pack/scripts/agent-os-check.sh`).
+Import copies it with the same `--force` keep-or-refresh as other protocol
+files, and stamps `docs/agent-os/VERSION` from this repo’s `VERSION` file.
 
 This repo’s own law: `docs/north-star/CONSTITUTION.md` (accepted v1.0).
 Destination / current release: `docs/north-star/NORTH_STAR.md`. Risk order:
@@ -33,13 +37,15 @@ Destination / current release: `docs/north-star/NORTH_STAR.md`. Risk order:
 .cursor/rules/agent-os-*.mdc
 .cursor/skills/
 docs/agent-os/KERNEL.md
+scripts/agent-os-check.sh
 docs/north-star/          stubs
 docs/agent-os/            CATALOG stub, templates, empty substrates/
 AGENTS.md, WORKING_STATE.md   only if missing
 ```
 
-`--force` refreshes rules and skills. It does not clobber a written
-constitution, ladder, catalog, gates, or generated substrates.
+`--force` refreshes rules, skills, and `scripts/agent-os-check.sh`. Without
+`--force`, an existing dest checker is kept. `--force` does not clobber a
+written constitution, ladder, catalog, gates, or generated substrates.
 
 ## Loop
 

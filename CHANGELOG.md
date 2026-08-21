@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.7.0 — 2026-08-20
+
+Import copies `scripts/agent-os-check.sh`. Same `--force` keep-or-refresh
+as other protocol files. README states the one stranger command:
+`scripts/agent-os-check.sh --range`.
+
 ## 0.6.1 — 2026-08-20
 
 Identity matches what import stamps. VERSION, CHANGELOG, and README name

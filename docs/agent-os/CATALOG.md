@@ -31,6 +31,15 @@ Unit 2 grain (identity, 2026-08-20 unlock):
 - Judgment: asked; the owner accepts the version number; the agent does not invent 1.0.
 - Operate: asked; VERSION is a stamp import copies, not a job. Reconsider when unit 3 copies the checker — the stamp must still match.
 
+Unit 3 grain (import-the-check, 2026-08-20 unlock):
+
+- Purpose: asked; wrong product is installing hooks here, or always clobbering a product checker.
+- Complexity: asked; import as a package manager; reconsider when a second artifact needs the same `--force` policy.
+- Unknowns: asked; `--force` vs keep-existing for `scripts/agent-os-check.sh`.
+- Belief: asked; README names the path so the file must already be there.
+- Judgment: asked; `--force` overwrite of an existing checker is the owner’s call.
+- Operate: asked; without `--force`, a product keeps a stale checker after kernel updates. Reconsider at unit 4 (hooks), not by weakening the MMU.
+
 ## Risks
 
 Risk: Pack stub `**Status:** unwritten — …` is INVALID under the MMU (`^Status: stub` \| `accepted`).
@@ -78,7 +87,7 @@ Reconsider when: after ladder rows 1–3 are on `main` and the owner names a 1.0
 Risk: Import does not copy the checker; product never mechanically refuses.
 Lens: operate
 Default if we stop talking: prompts document, nothing enforces
-Independent gate / eval: after import, `scripts/agent-os-check.sh --help` or usage exists; stranger command documented
+Independent gate / eval: `docs/agent-os/gates/3.md` — after import, `scripts/agent-os-check.sh` exists and matches pack; README states `--range`; `--force` refreshes, bare import keeps an existing file
 Seat: platform
 Reconsider when: unit 3 closed; hooks are unit 4
 

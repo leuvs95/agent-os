@@ -15,9 +15,10 @@ Canonical clone is typically `~/Projects/agent-os`.
 ./scripts/import.sh /absolute/path/to/the-project
 ```
 
-`--force` refreshes rules and skills. Never overwrites `WORKING_STATE.md`,
-`AGENTS.md`, `CATALOG.md`, written constitution/ladder, gates, or generated
-substrates.
+Import copies `scripts/agent-os-check.sh`. `--force` refreshes rules,
+skills, and that checker. Without `--force`, an existing dest checker is
+kept. Never overwrites `WORKING_STATE.md`, `AGENTS.md`, `CATALOG.md`,
+written constitution/ladder, gates, or generated substrates.
 
 Does **not** copy a substrate library. `/build-north-star` writes substrates
 in the project.

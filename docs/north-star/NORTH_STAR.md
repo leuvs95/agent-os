@@ -36,7 +36,7 @@ The constitution requires an **agent protocol**. This instance binds it to **Cur
 |---|---|
 | Skills / commands | `.cursor/skills/` (pack), imported as `.cursor/skills/` |
 | Kernel prose | `pack/docs/agent-os/KERNEL.md` → product `docs/agent-os/KERNEL.md` |
-| Check invocation | `scripts/agent-os-check.sh` after unit 3 |
+| Check invocation | `scripts/agent-os-check.sh` |
 | Lock until accept | `/build-north-star`, `/amend-north-star` |
 
 A different agent surface would be a North Star change, not a constitutional amendment — unless the kernel stopped requiring an importable agent protocol at all.
@@ -57,16 +57,16 @@ A different agent surface would be a North Star change, not a constitutional ame
 |---|---|
 | Git history | this git repo |
 | Agent protocol | Cursor skills + KERNEL + check (table above) |
-| MMU | `pack/scripts/agent-os-check.sh` (import-the-check = unit 3) |
+| MMU | `pack/scripts/agent-os-check.sh` → product `scripts/agent-os-check.sh` |
 
 ## Tradeoffs (this release)
 
 | Chose | Over | Why |
 |---|---|---|
 | Pack exemption (KERNEL in pack/) | Dogfood the MMU on this repo in v1 | Exemption is shape assertion, not product escape |
-| Import does not yet copy the checker | Ship check on first import | Known gap; unit 3 |
-| Status grammar still split | Ship unit 1 first | Learned; do not expand v1 to absorb it quietly |
+| `--force` refreshes an existing checker; bare import keeps it | Always clobber, or a package manager | Catalog default; same `copy_file` as KERNEL |
+| Status grammar unified in unit 1 | Leave two dialects | Learned; do not reopen |
 
 ## How to resume
 
-`WORKING_STATE.md`. Constitution v1.0 accepted. Ladder v1.1 (amendment 001). Next: unit 1 on `unit/1-status-grammar` off `main`.
+`WORKING_STATE.md`. Constitution v1.0 accepted. Ladder v1.1 (amendment 001).

@@ -8,7 +8,7 @@ VERSION="$(tr -d '[:space:]' < "$ROOT/VERSION")"
 
 usage() {
   echo "usage: $0 /path/to/project [--force]"
-  echo "  copies pack rules, skills, and stubs (not a substrate library)"
+  echo "  copies pack rules, skills, stubs, and scripts/agent-os-check.sh"
   exit 1
 }
 
@@ -86,6 +86,13 @@ copy_file "$PACK/docs/agent-os/KERNEL.md" "$TARGET/docs/agent-os/KERNEL.md"
 copy_file "$PACK/docs/agent-os/templates/GATE.md" "$TARGET/docs/agent-os/templates/GATE.md"
 copy_file "$PACK/docs/agent-os/templates/SUBSTRATE.md" "$TARGET/docs/agent-os/templates/SUBSTRATE.md"
 copy_file "$PACK/docs/north-star/templates/AMENDMENT.md" "$TARGET/docs/north-star/templates/AMENDMENT.md"
+checker_dest="$TARGET/scripts/agent-os-check.sh"
+checker_existed=0
+[[ -e "$checker_dest" ]] && checker_existed=1
+copy_file "$PACK/scripts/agent-os-check.sh" "$checker_dest"
+if [[ "$FORCE" == "--force" || "$checker_existed" -eq 0 ]]; then
+  chmod +x "$checker_dest"
+fi
 
 printf '%s\n' "$VERSION" > "$TARGET/docs/agent-os/VERSION"
 echo "write $TARGET/docs/agent-os/VERSION ($VERSION)"
