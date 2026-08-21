@@ -13,6 +13,10 @@ is accepted.
 
 See `pack/docs/agent-os/KERNEL.md` (copied to `docs/agent-os/KERNEL.md` on import).
 
+Mechanical refuse is `pack/scripts/agent-os-check.sh`. Import stamps
+`docs/agent-os/VERSION` from this repo’s `VERSION` file. It does not yet
+copy the checker to `scripts/agent-os-check.sh` (ladder row 3).
+
 This repo’s own law: `docs/north-star/CONSTITUTION.md` (accepted v1.0).
 Destination / current release: `docs/north-star/NORTH_STAR.md`. Risk order:
 `docs/north-star/LADDER.md`. v1 is ladder rows 1–3 only.

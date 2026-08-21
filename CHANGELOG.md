@@ -1,5 +1,18 @@
 # Changelog
 
+## 0.6.1 — 2026-08-20
+
+Identity matches what import stamps. VERSION, CHANGELOG, and README name
+`scripts/agent-os-check.sh` (the MMU). Import still does not copy the checker.
+
+- VERSION is no longer 0.5.0 staffing-only
+
+## 0.6.0 — 2026-08-19
+
+Mechanical refuse. `pack/scripts/agent-os-check.sh` scores commit-by-commit
+transitions against 30 frozen stories. Prompts document; the check enforces;
+bypass is not PASS.
+
 ## 0.5.0 — 2026-08-19
 
 Kernel: risk-driven + AI-native lenses. No hub library.
