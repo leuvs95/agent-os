@@ -4,31 +4,32 @@
 
 ## Did
 
-Owner marked `docs/agent-os/gates/2.md` PASS. Reconstruct: pass. Unit 2 on
-`unit/2-identity`: stamp `0.6.1`; CHANGELOG/README name
-`scripts/agent-os-check.sh`; import does not copy the checker.
+Unit 3 on `main` via fast-forward (one parent at tip). Branch
+`unit/3-import-check` deleted. Gate 3 PASS. Reconstruct pass.
 
 ## Next
 
-Linear history onto `main` (fast-forward, no merge commit). Then retire
-`unit/2-identity`. Then `/unit-unlock` on row 3 — not on `main`.
+Do not open unit 4 (hooks) until you choose. Do not stamp `1.0.0` until
+you name it. v1 destination is ladder rows 1–3.
 
-## Learning gate
+## Learning gate (unit 3)
 
-Reconstruct: **pass**. Boundary: 0.6.1 says the MMU exists in the kernel; it
-does not claim the importer receives it. Afraid to change: `VERSION` +
-matching CHANGELOG heading + `import.sh` VERSION stamp. Do not copy the
-checker; do not touch `status_of()` or the frozen 30.
+- Capability: after import, a stranger can run `scripts/agent-os-check.sh --range`.
+- Boundary: not hooks, not CI, not `--staged` hook, not detached HEAD, not
+  `status_of()` / frozen 30.
+- Reconstruct: **pass**. No snag files.
+- Afraid to change: `status_of()` / MMU grammar; frozen 30; bare import vs
+  `--force`.
 
 ## Do not
 
-- Merge to `main` with a merge commit
-- Copy `pack/scripts/agent-os-check.sh` in `scripts/import.sh`
-- Touch `status_of()` or `scripts/check-fixtures/`
-- Open unit 3 before unit 2 is on `main`
+- Stamp `1.0.0` (owner names that after rows 1–3 are on `main`)
+- Install hooks or a GitHub workflow
+- Weaken the MMU so detached HEAD counts as a unit branch
+- Open unit 4 on this close
 
 ## Pointers
 
-- Gate: `docs/agent-os/gates/2.md` (PASS)
+- Gate: `docs/agent-os/gates/3.md` (PASS)
 - Catalog: `docs/agent-os/CATALOG.md`
-- Unit 1: `docs/agent-os/gates/1.md`
+- Unit 2: `docs/agent-os/gates/2.md`
