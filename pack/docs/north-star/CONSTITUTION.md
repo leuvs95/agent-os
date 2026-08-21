@@ -1,7 +1,7 @@
 # Constitution
 
 **Version:** 0.0 (stub)  
-**Status:** unwritten — `/build-north-star` lock until v1.0 accepted  
+Status: stub
 **Amendments:** none  
 **Kernel:** `docs/agent-os/KERNEL.md`
 

@@ -20,7 +20,7 @@ Deadline mode does not skip the lock.
 
 ## Conversation lock
 
-While `docs/north-star/CONSTITUTION.md` is missing or **Status:** unwritten/stub:
+While `docs/north-star/CONSTITUTION.md` is missing or `Status: stub`:
 
 - No application code, stack-to-get-moving, `/unit-unlock`, or schema.
 - One question at a time, prefixed with the **active seat** name.
@@ -76,5 +76,5 @@ Attack with the six lenses. Fail → revise. Pass → owner says **accept**.
 
 ### 7. Accept
 
-Status accepted. WORKING_STATE points at constitution, ladder, substrates.
+`Status: accepted`. WORKING_STATE points at constitution, ladder, substrates.
 Lock releases. `/unit-unlock` on ladder row 1.

@@ -2,7 +2,7 @@
 
 Protocol only. No product folklore. No hub library dumped into projects.
 
-1. **Lock** — stub constitution ⇒ `/build-north-star`. No app code until the owner accepts v1.0.
+1. **Lock** — missing constitution or `Status: stub` ⇒ `/build-north-star`. No app code until `Status: accepted`. Those are the only legal Status values.
 2. **Staff** — TPM proposes ≤5 seats and names substrates from the vision. Decline the rest in writing. One facilitator, labeled seats, not a panel of agents.
 3. **Lenses** — always ask; do not always write a row:
 

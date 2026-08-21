@@ -1,27 +1,29 @@
 # Working state
 
-## Now
+**Resume here.** Not a substrate. Not the constitution.
 
-**Unit:** (none) — 0.6.0-mechanical-refuse merged to `main` (`80db07e`, PR #1)
-**Branch:** `main` — do not implement here. Next unit gets `unit/<X>-<slug>`.
-**Learning gate:** locked until the adapter unit is specced and unlocked
-**Reconstruct:** 0.6.0 pass (2026-08-20). No snag files.
-**Next:** Spec the adapter unit, starting with Import (how a product repo receives the checker, version/update, `--force` / existing-checker). Freeze that contract, write the gate, then implement. No `install-hooks.sh` or GitHub workflow until that unit says so.
+## Did
 
-**Gate file (closed):** `docs/agent-os/gates/0.6.0-mechanical-refuse.md`
-**Checker:** `pack/scripts/agent-os-check.sh`
-**Fixtures:** `scripts/check-fixtures/run.sh` (30/30; owner accepted)
-**VERSION:** still `0.5.0` until you ship a kernel release
+Owner accepted amendment 001 (ladder v1.1). Owner marked
+`docs/agent-os/gates/1.md` PASS. Unit 1 implemented on
+`unit/1-status-grammar`: pack stubs `Status: stub`; lock and KERNEL use
+`Status: stub` | `Status: accepted`. Frozen 30 stories unchanged.
 
-## Follow-on (adapter unit; do not weaken the MMU)
+## Next
 
-1. Detached HEAD / branch identity — adapter contract, not checker.
-2. `--staged` needs more fixtures before a pre-commit hook.
-3. INVALID-parent recovery stays fail-closed unless MMU contract changes later.
-4. Import does not distribute `scripts/agent-os-check.sh`; solve that before hook/CI claims.
+Stop. Do not merge. Do not open unit 2. `/reconstruct` is available for
+unit 1 close.
 
-## Session
+## Do not
 
-**What we did:** Merged PR #1. Deleted `unit/0.6.0-mechanical-refuse`. Synced `main`.
-**What changed:** this file only (resume pointer).
-**Blocked:** none. Human owns git. Do not start adapter code on `main`.
+- Merge to `main` until the owner says so
+- Open units 2–7
+- Weaken `status-unknown` / `bootstrap-add-malformed`
+- Copy the checker, add hooks, bump VERSION
+
+## Pointers
+
+- Amendment: `docs/north-star/AMENDMENTS/001-inevitable-ladder.md`
+- Catalog: `docs/agent-os/CATALOG.md`
+- Gate: `docs/agent-os/gates/1.md` (PASS)
+- MMU (unchanged): `docs/agent-os/gates/0.6.0-mechanical-refuse.md`
