@@ -22,6 +22,15 @@ Unit 1 grain (Status grammar, 2026-08-20 unlock):
 - Judgment: asked; unifying grammar is not manufacturing `Status: accepted`.
 - Operate: asked; Status is a committed line, not a job; reconsider when Status is derived rather than written.
 
+Unit 2 grain (identity, 2026-08-20 unlock):
+
+- Purpose: asked; wrong product is labeling 1.0 because the constitution is accepted, or a marketing changelog that never names the MMU.
+- Complexity: asked; extra version files under pack/; reconsider when import needs a second stamp.
+- Unknowns: asked; import already stamps `docs/agent-os/VERSION` from the kernel `VERSION` file.
+- Belief: asked; VERSION 0.5.0 / CHANGELOG 0.5.0 / README silent on the checker after the MMU shipped.
+- Judgment: asked; the owner accepts the version number; the agent does not invent 1.0.
+- Operate: asked; VERSION is a stamp import copies, not a job. Reconsider when unit 3 copies the checker — the stamp must still match.
+
 ## Risks
 
 Risk: Pack stub `**Status:** unwritten — …` is INVALID under the MMU (`^Status: stub` \| `accepted`).
@@ -55,9 +64,16 @@ Reconsider when: never — human owns acceptance
 Risk: VERSION 0.5.0 / CHANGELOG / README silent on the checker after 0.6.0 merged.
 Lens: belief
 Default if we stop talking: the kit and the OS tell different stories
-Independent gate / eval: README names `scripts/agent-os-check.sh` and VERSION matches the shipped kernel
+Independent gate / eval: `docs/agent-os/gates/2.md` — VERSION is not `0.5.0`; CHANGELOG heading matches VERSION; README and that CHANGELOG section name the MMU
 Seat: product
 Reconsider when: never — v1 unit 2
+
+Risk: Stamp `1.0.0` because this repo’s constitution is accepted.
+Lens: purpose
+Default if we stop talking: importers think they received a finished v1 kernel (rows 1–3)
+Independent gate / eval: `docs/agent-os/gates/2.md` — VERSION is not `1.0.0`
+Seat: product
+Reconsider when: after ladder rows 1–3 are on `main` and the owner names a 1.0 stamp
 
 Risk: Import does not copy the checker; product never mechanically refuses.
 Lens: operate
