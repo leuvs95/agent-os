@@ -12,7 +12,8 @@ spreadsheet from the last hosted pipeline.
 | Judgment | ownership | agent executes; human owns decisions; generation vs comprehension |
 | Operate | run | only if something remembers, bills, retries, schedules, or leaks |
 
-Ladder order = risks retired, not components built.
+Ladder order = risks on the path to the observable product outcome, not
+any risk retired, not components built.
 
 Anti-patterns: dated mega North Stars; status inside the constitution;
 `/grill-me` as genesis; importing last project’s substrate files;

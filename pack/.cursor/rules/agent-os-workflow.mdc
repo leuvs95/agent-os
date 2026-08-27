@@ -8,8 +8,12 @@ alwaysApply: true
 ## Session start
 
 1. Read `AGENTS.md` then `WORKING_STATE.md` (resume from **Next**).
-2. Read `docs/agent-os/KERNEL.md`, then `docs/north-star/CONSTITUTION.md` + current ladder row (stub → `/build-north-star` lock).
+2. Read `docs/agent-os/KERNEL.md`, then `docs/north-star/CONSTITUTION.md` (including the observable product outcome) + current ladder row (stub → `/build-north-star` lock).
 3. Confirm off `main`. If `WORKING_STATE.md` is missing, stop.
+
+**Next unit** is the highest-risk unresolved builder-retired dependency on the
+shortest remaining trustworthy path to the observable product outcome — not
+the next id, not the largest off-path technical risk.
 
 ## No code until
 
@@ -23,7 +27,11 @@ Deadline mode may defer teaching. It never defers learned risk log, gates, secre
 
 ## Unit Spec
 
-1. What **risk** does this unit retire?
+1. What **risk** does this unit retire? Why is builder-retired the cheapest
+   valid treatment (not research, gate, use, or defer)? What **product delta**
+   (capability, truth, or user-visible behavior) becomes real? Delete test:
+   if this row vanished, what accepted-product failure reaches the user?
+   Destination test: after PASS, what changed on the path to the OPO?
 2. Responsible for?
 3. Out of scope?
 4. Contract/artifact exposed later?

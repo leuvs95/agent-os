@@ -7,7 +7,7 @@ Imported **agent-os**. Inspect repository files before acting.
 1. `WORKING_STATE.md` — every session. Resume from **Next**.
 2. `docs/agent-os/KERNEL.md` — protocol.
 3. `docs/north-star/CONSTITUTION.md` — purpose, table, substrates. Stub → `/build-north-star` lock.
-4. `docs/north-star/LADDER.md` — current unit must be a row (risk retired).
+4. `docs/north-star/LADDER.md` — current unit must be a builder-retired row on the path to the observable product outcome.
 5. `docs/agent-os/CATALOG.md` — learned risks for this project.
 
 Runtime: `.cursor/rules/agent-os-*.mdc`. Skills: `/build-north-star` and friends.

@@ -17,11 +17,16 @@ change to match the code.
 
 ## Procedure
 
-1. Copy `docs/agent-os/templates/GATE.md` to `docs/agent-os/gates/<unit-slug>.md`.
-2. Fill **Probe** with the exact SQL, HTTP, or command. One fail line a stranger could run.
-3. **Pass if** / **Fail if** in observable terms (row count, status code, unique violation, job present, size bound).
-4. Link catalog rows this gate protects.
-5. Point `WORKING_STATE.md` at this file.
+1. Copy `docs/agent-os/templates/GATE.md` to `docs/agent-os/gates/<unit-slug>.md`
+   when the risk is **builder-retired** (a ladder row).
+2. For a **gate-retired** catalog risk, copy to
+   `docs/agent-os/gates/catalog-<slug>.md` instead — a catalog probe with
+   **no unit**. Do not mint a ladder row to hold the probe. Do not build
+   production machinery merely to prove the lie is false.
+3. Fill **Probe** with the exact SQL, HTTP, or command. One fail line a stranger could run.
+4. **Pass if** / **Fail if** in observable terms (row count, status code, unique violation, job present, size bound).
+5. Link catalog rows this gate protects.
+6. Point `WORKING_STATE.md` at this file.
 
 ## What is not a gate
 

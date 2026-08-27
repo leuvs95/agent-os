@@ -9,6 +9,10 @@ Status: stub
 
 (one sentence — operational result, not platform)
 
+## Observable Product Outcome
+
+Given accepted input X, user Y can perform action Z and receive/use result W under constraints C.
+
 ## Non-goals
 
 - (what we will be tempted to add)

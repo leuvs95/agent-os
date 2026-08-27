@@ -7,6 +7,12 @@
 **Date:** YYYY-MM-DD  
 **Evidence:** (what production or design fact forced this — not vibe)
 
+Threatens-OPO: yes | no  
+Disposition: research-retired | gate-retired | builder-retired | use-retired | deferred  
+Why-this-treatment: (cheapest valid — not “the risk is real”)
+
+If Disposition is not builder-retired, do not add a ladder row.
+
 ## Why
 
 ## What changes

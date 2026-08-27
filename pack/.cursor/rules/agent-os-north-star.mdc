@@ -8,23 +8,28 @@ alwaysApply: true
 The North Star is **not** the planning chat, a status dashboard, or a dated
 filename. It is two current files plus a versioned amendment log.
 
-- `docs/north-star/CONSTITUTION.md` — purpose, non-goals, invariants. Rare.
-- `docs/north-star/LADDER.md` — unit sequence and contracts. Changes more.
+- `docs/north-star/CONSTITUTION.md` — purpose, **observable product outcome**,
+  non-goals, invariants. Rare.
+- `docs/north-star/LADDER.md` — the minimum path to that outcome. Changes more.
 - `docs/north-star/AMENDMENTS/` — every pivot. Git history is not enough.
 
 Always those paths. Never `NORTH_STAR_2026-07-30.md`. Status (shipped /
 deployed / proven) lives in `WORKING_STATE.md` and gates, not the constitution.
+Do not add a product `NORTH_STAR.md`.
 
 ## Always
 
 - Session start: if those files are missing or still the stub, enter
   `/build-north-star` (staff the table, six lenses) and stay there (this pack
   repo is exempt). Refuse application code until the owner accepts v1.0.
-- Ladder is ordered by **risk retired**. Off-ladder work → `/amend-north-star`.
+- Ladder is the minimum risk-retiring path to the observable product outcome.
+  Off-ladder work → `/amend-north-star`. A discovered risk is not a row.
 - An invariant conflict → stop. Do not “interpret.” Propose an amendment.
 - Implementation never edits constitution or ladder except by accepted amendment.
 
 ## Amendments
 
-No silent drift. `/amend-north-star` injects the six kernel lenses. Bump the
+No silent drift. `/amend-north-star` first asks whether new evidence
+threatens the observable product outcome, then the cheapest disposition.
+Only builder-retired may add a row. Then six-lens injection. Bump the
 in-file version. Leave the amendment record.

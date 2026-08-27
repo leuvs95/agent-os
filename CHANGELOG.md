@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.8.0 — 2026-08-27
+
+Destination pressure. Imported KERNEL law 5 is the minimum path to an
+observable product outcome. Risk discovery is not implementation
+authorization. Five dispositions. Lot Clerk gate is kernel-local.
+
 ## 0.7.0 — 2026-08-20
 
 Import copies `scripts/agent-os-check.sh`. Same `--force` keep-or-refresh

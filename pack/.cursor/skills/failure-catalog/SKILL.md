@@ -11,6 +11,9 @@ disable-model-invocation: false
 
 Kernel: always **ask** the six lenses. Do **not** always write a row.
 Catalog = what seats learned + one-liners for lenses that found nothing.
+Discovery is not implementation authorization. Do not assign disposition
+here; `/build-north-star` or `/amend-north-star` stamps it after the
+observable product outcome exists.
 
 Do not overlay, import, or consult a hub substrate library.
 
@@ -51,6 +54,7 @@ If a named substrate has no file yet, create `docs/agent-os/substrates/<name>.md
 from the substrate template and put the learned operate/belief rows there too.
 
 Cite sources you opened. Point `/gate-first` at each risk that needs a probe.
+A gate-retired risk gets a catalog probe with **no unit**.
 
 ## Stop
 

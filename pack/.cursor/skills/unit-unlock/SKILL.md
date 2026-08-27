@@ -19,6 +19,11 @@ decisions, not memorized names.
    Otherwise the unit is a row on `docs/north-star/LADDER.md` and does not
    violate `CONSTITUTION.md`. If not, `/amend-north-star`. Cite the
    invariants this unit protects.
+   The catalog risk for this row must be **builder-retired**, threaten the
+   observable product outcome, name a product delta, and have delete-test
+   and destination-test answers. If it has not earned builder-retired
+   status, refuse — do not unlock. Research, gate, use, and deferral are
+   valid outcomes; they are not this unit.
 1. Name **substrates** this unit touches from the constitution table.
    Unknown name → `/amend-north-star`. (“None durable” is a written default.)
 2. Run **`/failure-catalog`** — six lenses, learned-only rows in

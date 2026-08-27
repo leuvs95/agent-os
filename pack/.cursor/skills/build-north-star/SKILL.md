@@ -18,6 +18,9 @@ Until constitution **v1.0 is accepted**, every owner message is workshop
 intake. Pasted chats are evidence, not law. This pack repo is exempt.
 Deadline mode does not skip the lock.
 
+Via negativa is how we discover the smallest trustworthy path to the
+product. It is not a phase that produces a risk curriculum.
+
 ## Conversation lock
 
 While `docs/north-star/CONSTITUTION.md` is missing or `Status: stub`:
@@ -32,6 +35,13 @@ While `docs/north-star/CONSTITUTION.md` is missing or `Status: stub`:
 ### 1. Ramp
 
 Owner talks: who suffers, what “done” looks like in the world. No stack yet.
+Write the **Observable Product Outcome** in this form before staffing:
+
+Given accepted input X, user Y can perform action Z and receive/use
+result W under constraints C.
+
+Purpose is the one-sentence why. The OPO is the destination the ladder
+must serve.
 
 ### 2. Staff the table (TPM)
 
@@ -46,35 +56,68 @@ Propose, then wait for owner accept:
 A seat without a playbook still sits: eight-line charter (name, job, objection
 duty, do-not). See [seats.md](seats.md).
 
-### 3. Run only those seats
+### 3. Run only those seats, then discover risks
 
 Each seat applies the **six lenses**. Write only what was learned. Operate
 lens probes (retention, retries, cost, …) exist only if that seat named a
 substrate that remembers, bills, retries, schedules, or leaks.
 
 Then `/failure-catalog` at project grain against **named** substrates.
+Catalog is discovery. Do not mint ladder rows here.
 
-### 4. Understanding gate (before files)
+### 4. Risk disposition (before any ladder draft)
 
-Owner, without your summary: one sentence, two non-goals, three invariants,
-seats present, substrates, scariest learned default, ladder row 1 (risk it retires).
+For every catalog risk, stamp exactly one treatment:
 
-### 5. Draft in the project
+- research-retired — evidence answers it; build nothing
+- gate-retired — an independent probe can falsify the lie; no production
+  machinery merely to prove it (`/gate-first` with **no unit**)
+- builder-retired — product behavior must exist; candidate for a row
+- use-retired — only owner/user use can resolve it
+- deferred — the accepted MVP does not exercise it
 
-1. `docs/north-star/CONSTITUTION.md` v1.0 — purpose, non-goals, invariants,
-   **table** (seats present/declined), substrates, deferred, tradeoffs. ≤ ~120 lines.
-2. `docs/north-star/LADDER.md` v1.0 — rows ordered by **risk retired**, contract slice.
-3. `docs/agent-os/substrates/<name>.md` — one file per named substrate, from
+Ask: does it threaten the accepted OPO? If no: research-retire, record, or
+defer. If yes: cheapest valid treatment. A discovered risk has not earned
+code.
+
+### 5. Understanding gate (before files)
+
+Owner, without your summary: OPO in Given form; two non-goals; three
+invariants; seats present; substrates; first **builder-retired** slice if
+any (risk, why builder not cheaper, product delta). Not “scariest learned
+default → row 1.”
+
+### 6. Draft in the project
+
+1. `docs/north-star/CONSTITUTION.md` v1.0 — purpose, **Observable Product
+   Outcome**, non-goals, invariants, **table**, substrates, deferred
+   (use-retired and deferred risks land here or in the catalog), tradeoffs.
+   ≤ ~120 lines plus the OPO block.
+2. `docs/agent-os/CATALOG.md` — learned risks with disposition stamps.
+3. `docs/north-star/LADDER.md` v1.0 — **only** builder-retired risks that
+   threaten the OPO, name a product delta (capability, truth, or
+   user-visible behavior — not “architecture is nicer”), and survive the
+   delete test and destination test. Ordered by risk on that path, sliced
+   by contract. The table header is frozen (MMU). Put the product delta in
+   the contract cell.
+4. `docs/agent-os/substrates/<name>.md` — one file per named substrate, from
    `docs/agent-os/templates/SUBSTRATE.md`. Learned risks only.
-4. `docs/agent-os/CATALOG.md` — risk log (lenses + learned rows).
 
-No mega-file. No shipped/deployed/proven. No copied hub folklore.
+No mega-file. No shipped/deployed/proven. No copied hub folklore. No
+product `NORTH_STAR.md`.
 
-### 6. Birth injection
+### 7. Birth injection
 
-Attack with the six lenses. Fail → revise. Pass → owner says **accept**.
+Attack with the six lenses. Then, for every proposed row: delete test and
+destination test. Then inject one scary **off-path** risk (real, not on
+the OPO). If it becomes a row, fail — revise. Pass → owner says **accept**.
 
-### 7. Accept
+### 8. Accept
 
 `Status: accepted`. WORKING_STATE points at constitution, ladder, substrates.
-Lock releases. `/unit-unlock` on ladder row 1.
+Lock releases. `/unit-unlock` on the highest-risk unresolved builder
+dependency on the shortest remaining trustworthy path to the OPO — not
+automatically “row 1,” not the largest off-path technical risk.
+
+Research broadly. Build narrowly. Every unit must earn its place on that
+path.

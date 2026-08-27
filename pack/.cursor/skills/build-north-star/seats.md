@@ -19,7 +19,8 @@ Job: make the vision small enough to be true.
 Lenses to stress: **purpose**, then judgment (who decides v1).
 
 Ask (adapt): who is in pain (operational sentence)? What does “done” look
-like in the world? What will we be tempted to add (non-goals)? User of v1
+like in the world — write it as Given input X, user Y, action Z, result W,
+constraints C? What will we be tempted to add (non-goals)? User of v1
 vs audience of the pitch? One promise we keep if we can keep only one?
 
 **Objection:** a product that satisfies the pitch and is still the wrong business.
@@ -38,8 +39,9 @@ Ask (adapt): smallest contract v1 exposes? What must stay inside? What
 illegal states can we delete? What must unit N never know about N+1?
 Where will an agent invent a second path?
 
-**Objection:** a ladder sliced by layer or tool. Demand slice by contract,
-ordered by **risk retired**.
+**Objection:** a ladder sliced by layer or tool, or a risk curriculum —
+rows that retire real risks that are not on the path to the observable
+product outcome. Demand slice by contract, ordered by risk on that path.
 
 Do not: file trees, frameworks, `/unit-unlock`.
 

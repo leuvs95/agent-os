@@ -21,14 +21,15 @@ Mechanical refuse is `scripts/agent-os-check.sh` (source: `pack/scripts/agent-os
 Import copies it with the same `--force` keep-or-refresh as other protocol
 files, and stamps `docs/agent-os/VERSION` from this repo’s `VERSION` file.
 
-This repo’s own law: `docs/north-star/CONSTITUTION.md` (accepted v1.0).
-Destination / current release: `docs/north-star/NORTH_STAR.md`. Risk order:
-`docs/north-star/LADDER.md`. v1 is ladder rows 1–3 only.
+This repo’s own law: `docs/north-star/CONSTITUTION.md` (accepted v1.1).
+Destination / current release: `docs/north-star/NORTH_STAR.md`. Path:
+`docs/north-star/LADDER.md`. v1 is ladder rows 1–3 (shipped). Row 8 is
+destination pressure. Rows 4–7 stay frozen.
 
 - **Lock** until constitution v1.0
 - **Staff** ≤5 seats from the vision (TPM, one facilitator)
 - **Six lenses** (always ask, learned-only rows)
-- **Ladder** ordered by risk retired
+- **Ladder** is the minimum path to the observable product outcome
 - **Substrates written in the project** — no hub library
 
 ## What import copies
