@@ -14,7 +14,7 @@ and not the law (that is the constitution).
 `/amend-north-star` **004+**, not this row, not a session whim.
 Amendment 003 is not that thaw.
 
-**Next (003):** unlock **8**. Not 4. Not TaxiLabs CI.
+**Next (003):** row **8** closed. Not 4. Not TaxiLabs CI until re-judged.
 
 Ordered by risk on the path to the accepted observable product outcome,
 sliced by **contract**, not by layer. Risk discovery is not

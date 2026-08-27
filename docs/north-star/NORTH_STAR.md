@@ -35,16 +35,12 @@ stays rejected (not a unit).
 
 ## Current kernel work (amendment 003)
 
-Row **8** — destination pressure. Via negativa must produce a path, not a
-risk curriculum. Research broadly. Build narrowly. Every unit must earn
-its place on the shortest trustworthy path to the accepted product
-outcome.
+Row **8** is closed. Via negativa produces a path, not a risk curriculum.
+Research broadly. Build narrowly. Every unit must earn its place on the
+shortest trustworthy path to the accepted product outcome.
 
-Do not implement row 8 until reconstruct of 003 PASSes and `/unit-unlock`
-completes. Lot Clerk gold + anti-fixtures are `/gate-first`, before code.
-
-TaxiLabs CI 007 stays paused. After row 8 closes, re-judge 007/R9 under
-the new protocol. Do not assume it survives because it inspired this row.
+TaxiLabs CI 007 stays paused until re-judged under this protocol. Do not
+assume it survives because it inspired this row.
 
 ## Current agent-protocol implementation
 
@@ -89,6 +85,5 @@ A different agent surface would be a North Star change, not a constitutional ame
 
 ## How to resume
 
-`WORKING_STATE.md`. Constitution v1.1 (amendment 003). Ladder v1.3. Next:
-reconstruct 003, then `/unit-unlock` on **8**. Do not open unit 4. Do not
-resume TaxiLabs 007 until row 8 closes.
+`WORKING_STATE.md`. Constitution v1.1 (amendment 003). Ladder v1.3. Unit 8
+closed. Do not open unit 4. Re-judge TaxiLabs 007/R9 under this protocol.
