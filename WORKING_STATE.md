@@ -4,38 +4,28 @@
 
 ## Mode
 
-Amendment **003** folded. Constitution v1.1. Ladder v1.3. Row **8** named.
-Rows 4–7 stay frozen. Reconstruct PASS. Next: `/unit-unlock` on 8.
+Unit **8** unlocked. Gate written. Do not implement until this commit is
+the parent of the protocol change.
 
 ## Did
 
-- v1 rows 1–3 on `main`.
-- Amendment 002 freeze of 4–7.
-- Owner GO 2026-08-27: amendment 003 (path-not-curriculum). TaxiLabs CI
-  untouched.
+- Amendment 003 folded. Reconstruct PASS.
+- `/unit-unlock` on 8. Substrate: Agent protocol (not first write; no
+  `/substrate-sprint`).
+- `/gate-first`: Lot Clerk gold + 7 antis in `docs/agent-os/gates/8.md`.
 
 ## Next
 
-`/unit-unlock` on **8**, then `/gate-first` (Lot Clerk gold + antis), then
-implement the accepted slice. Do not thaw 4–7.
+Implement imported KERNEL law 5 and workshop skills. Do not change Pass if.
 
 ## Do not
 
 - Open unit 4–7
-- Treat 003 as a thaw of 002
-- Stamp `1.0.0`
-- Touch TaxiLabs CI or reinterpret R7/R8
-
-## Learning gate
-
-**Learning gate:** open (reconstruct 003 PASS)
-**Unit (learning):** 8 — path not curriculum
-**Reconstruct:** PASS 2026-08-27. No snag files.
+- Change Lot Clerk Pass if after code exists
+- Touch TaxiLabs CI
 
 ## Pointers
 
-- Amendment: `docs/north-star/AMENDMENTS/003-path-not-curriculum.md`
-- Constitution: `docs/north-star/CONSTITUTION.md` v1.1
+- Gate: `docs/agent-os/gates/8.md`
+- Probe: `docs/agent-os/gates/8_probe.sh`
 - Ladder: `docs/north-star/LADDER.md` v1.3
-- Freeze of 4–7: `docs/north-star/AMENDMENTS/002-freeze-until-product.md`
-- Catalog: `docs/agent-os/CATALOG.md`

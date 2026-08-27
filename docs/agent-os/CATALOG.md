@@ -134,3 +134,33 @@ Default if we stop talking: we overcorrect into “don’t build”; required pr
 Independent gate / eval: Lot Clerk anti-fixture — zero builder rows FAIL; unknown-expiry / lot-identity builder rows must remain
 Seat: product
 Reconsider when: unit 8 gate is written; never weaken that anti-fixture
+
+Unit 8 grain (product-path, 2026-08-27 unlock):
+
+- Purpose: asked; wrong product is UI-as-product or a disposition methodology kit.
+- Complexity: asked; adding a Product delta MMU column would unfreeze HEADER1; product delta lives on catalog / row admission.
+- Unknowns: asked; catalog-level gates (no unit) unnamed until `/gate-first` says so.
+- Belief: asked; gold fixtures pass while KERNEL still says only “ordered by risk retired.”
+- Judgment: asked; humans accept OPO; agents draft disposition; agents may not thaw 4–7.
+- Operate: asked; protocol files are not a job; reconsider when a scheduled protocol-eval harness exists.
+
+Risk: Lot Clerk gold is green while the imported protocol still mints a row per discovered risk.
+Lens: belief
+Default if we stop talking: KERNEL.md is folklore; destination pressure is optional again
+Independent gate / eval: `docs/agent-os/gates/8.md` — protocol checks on `pack/` plus gold/anti trees
+Seat: engineering
+Reconsider when: never — unit 8 contract
+
+Risk: Adding a sixth ladder column (Product delta) silently invalidates frozen MMU header stories.
+Lens: complexity
+Default if we stop talking: `accepted-ladder-bad-header` goes red or we edit fixtures to match
+Independent gate / eval: `pack/scripts/agent-os-check.sh` HEADER1 unchanged; imported `LADDER.md` stub keeps five columns
+Seat: kernel
+Reconsider when: never in this unit; MMU policy is out of scope
+
+Risk: `/gate-first` still requires a unit id, so gate-retired risks mint builder rows “to have a place for the probe.”
+Lens: belief
+Default if we stop talking: cheapest valid treatment is never a gate
+Independent gate / eval: `docs/agent-os/gates/8.md` protocol check — gate-first skill allows a catalog probe with no unit
+Seat: engineering
+Reconsider when: never — unit 8 contract
