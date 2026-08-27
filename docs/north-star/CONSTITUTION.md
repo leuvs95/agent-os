@@ -1,7 +1,8 @@
 # Constitution
 
 Status: accepted
-Version: 1.0
+Version: 1.1
+Amendment: docs/north-star/AMENDMENTS/003-path-not-curriculum.md
 
 Would changing this mean Agent OS fundamentally believes something different? If no, it does not belong here.
 
@@ -21,7 +22,7 @@ Not a Linux-class OS. Not TaxiLabs folklore. Not Spec Kit. Not a hub substrate l
 
 2. **Commit-by-commit, monotonic.** Only `accepted` is sticky. History does not rewrite the last accepted constitution. Merges of unit work are not a commit the MMU can score — refuse them.
 
-3. **Ladder, not folklore.** Units are ordered by **risk retired**. Each unit exposes a **contract**. Implementation is sliced by that contract.
+3. **Ladder, not folklore.** The ladder is the minimum risk-retiring path from uncertainty to the accepted observable product outcome. Units are ordered by risk on that path. Each unit exposes a **contract**. Implementation is sliced by that contract. Risk discovery is not implementation authorization. Every unit must earn its place on the shortest trustworthy path to that outcome. An accepted **product** constitution names the observable product outcome that path serves.
 
 4. **Import the protocol, not folklore.** After `/build-north-star` accept, substrates are written in the **product repo**. No consult-only hub library.
 
@@ -45,4 +46,4 @@ What persists across sessions. Each named substrate has a **current instance** i
 
 ---
 
-Accepted v1.0. Amendments via `/amend-north-star`. Unit work on `unit/<Id>-<slug>`, not `main`.
+Accepted v1.0. Owner ACCEPT v1.1 2026-08-27 (amendment 003). Amendments via `/amend-north-star`. Unit work on `unit/<Id>-<slug>`, not `main`.

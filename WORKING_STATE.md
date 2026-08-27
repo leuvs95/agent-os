@@ -2,37 +2,40 @@
 
 **Resume here.** Not a substrate. Not the constitution.
 
-## Frozen
+## Mode
 
-Amendment **002** (`docs/north-star/AMENDMENTS/002-freeze-until-product.md`).
-Ladder v1.2. Do not open rows 4–7. Do not stamp `1.0.0` unless the owner names it.
-
-Rule of thumb: Agent OS serves TaxiLabs CI. TaxiLabs CI does not wait for
-Agent OS.
+Amendment **003** folded. Constitution v1.1. Ladder v1.3. Row **8** named.
+Rows 4–7 stay frozen. Reconstruct PASS. Next: `/unit-unlock` on 8.
 
 ## Did
 
-- v1 rows 1–3 on `main` (Status grammar, identity, import-the-check).
-- Owner froze later rows (2026-08-21). Useful-enough bar, not inevitability.
-- Import into `~/Clients/HT/taxi-labs-customer-intelligence`.
+- v1 rows 1–3 on `main`.
+- Amendment 002 freeze of 4–7.
+- Owner GO 2026-08-27: amendment 003 (path-not-curriculum). TaxiLabs CI
+  untouched.
 
 ## Next
 
-Nothing in this repo. Product work is taxi-labs-customer-intelligence.
-
-Thaw of 4–7 is `/amend-north-star` (003+), only after a product skip costs
-something or a second product imports.
+`/unit-unlock` on **8**, then `/gate-first` (Lot Clerk gold + antis), then
+implement the accepted slice. Do not thaw 4–7.
 
 ## Do not
 
-- Open unit 4 (hooks), 5 (workflow), 6 (ceremony), or 7 (dogfood)
-- Stamp `1.0.0` without the owner naming it
-- Weaken the MMU so detached HEAD counts as a unit branch
-- Treat WORKING_STATE as a thaw
+- Open unit 4–7
+- Treat 003 as a thaw of 002
+- Stamp `1.0.0`
+- Touch TaxiLabs CI or reinterpret R7/R8
+
+## Learning gate
+
+**Learning gate:** open (reconstruct 003 PASS)
+**Unit (learning):** 8 — path not curriculum
+**Reconstruct:** PASS 2026-08-27. No snag files.
 
 ## Pointers
 
-- Freeze: `docs/north-star/AMENDMENTS/002-freeze-until-product.md`
-- Ladder: `docs/north-star/LADDER.md` (v1.2)
+- Amendment: `docs/north-star/AMENDMENTS/003-path-not-curriculum.md`
+- Constitution: `docs/north-star/CONSTITUTION.md` v1.1
+- Ladder: `docs/north-star/LADDER.md` v1.3
+- Freeze of 4–7: `docs/north-star/AMENDMENTS/002-freeze-until-product.md`
 - Catalog: `docs/agent-os/CATALOG.md`
-- Gates 1–3: `docs/agent-os/gates/{1,2,3}.md`

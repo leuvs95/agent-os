@@ -103,4 +103,34 @@ Lens: purpose
 Default if we stop talking: TaxiLabs waits on hooks/CI/dogfood; Agent OS stays the product
 Independent gate / eval: `docs/north-star/AMENDMENTS/002-freeze-until-product.md` — no `unit/4-*` (or 5–7) until thaw
 Seat: owner
-Reconsider when: taxi-labs-customer-intelligence (or a second importer) skips the protocol and it costs something
+Reconsider when: a product skip of `--range` / invocation costs something, or a second importer demonstrates that skip. Amendment 003 is not this thaw.
+
+Amendment 003 grain (path-not-curriculum, 2026-08-27):
+
+- Purpose: asked; wrong product is a PM methodology, UI-as-product, or thawing 4–7 because 003 opened.
+- Complexity: asked; seventh lens / disposition skill / P6 / MMU taste-judge is unbounded.
+- Unknowns: asked; named observable product outcome and risk disposition.
+- Belief: asked; KERNEL paragraph without Lot Clerk both-sides gate is the lie.
+- Judgment: asked; owner accepts OPO; agent does not relitigate TaxiLabs R7/R8.
+- Operate: asked; not operational; reconsider if disposition becomes a scheduled job.
+
+Risk: Following the kernel in good faith converts discovered technical risks into ladder rows; destination pressure is optional folklore.
+Lens: purpose
+Default if we stop talking: the owner keeps saying stop plumbing; via negativa stays a risk curriculum
+Independent gate / eval: unit 8 — Lot Clerk gold + anti-fixtures at `/gate-first` after reconstruct (not this amendment)
+Seat: owner
+Reconsider when: never for the law; thaw of 4–7 is a different risk (002)
+
+Risk: Treating amendment 003 as the 002 thaw because 002 said “003+.”
+Lens: belief
+Default if we stop talking: hooks/CI/ceremony/dogfood open without an invocation skip
+Independent gate / eval: `docs/north-star/AMENDMENTS/003-path-not-curriculum.md` — row 8 added; 4–7 still frozen; thaw is 004+
+Seat: kernel
+Reconsider when: 004 names an invocation skip and which frozen row that cost requires
+
+Risk: Disposition theater — every catalog risk stamped deferred, or zero builder rows, so the kernel builds nothing.
+Lens: belief
+Default if we stop talking: we overcorrect into “don’t build”; required product truths never become real
+Independent gate / eval: Lot Clerk anti-fixture — zero builder rows FAIL; unknown-expiry / lot-identity builder rows must remain
+Seat: product
+Reconsider when: unit 8 gate is written; never weaken that anti-fixture

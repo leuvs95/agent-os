@@ -21,10 +21,9 @@ Ship ladder units **1–3** (see `LADDER.md`). That is the current release, not 
 ## Frozen (amendment 002)
 
 v1 (rows 1–3) is shipped. This instance does **not** open rows 4–7 until a
-product that imported the kernel skips the protocol and it costs something,
-or a second product imports. Thaw via `/amend-north-star`.
-
-Agent OS serves TaxiLabs CI. TaxiLabs CI does not wait for Agent OS.
+product that imported the kernel skips `--range` / invocation and it costs
+something, or a second product imports. Thaw via `/amend-north-star` **004+**.
+Amendment 003 is not that thaw.
 
 Named later rows stay on the ladder (not deleted). Hub substrate library
 stays rejected (not a unit).
@@ -33,6 +32,19 @@ stays rejected (not a unit).
 - **5** — remote default-on (workflow, rebase not merge) — frozen
 - **6** — ceremony (P0–P5 vs lenses; unit-blog not kernel) — frozen
 - **7** — dogfood this repo without weakening the MMU — frozen
+
+## Current kernel work (amendment 003)
+
+Row **8** — destination pressure. Via negativa must produce a path, not a
+risk curriculum. Research broadly. Build narrowly. Every unit must earn
+its place on the shortest trustworthy path to the accepted product
+outcome.
+
+Do not implement row 8 until reconstruct of 003 PASSes and `/unit-unlock`
+completes. Lot Clerk gold + anti-fixtures are `/gate-first`, before code.
+
+TaxiLabs CI 007 stays paused. After row 8 closes, re-judge 007/R9 under
+the new protocol. Do not assume it survives because it inspired this row.
 
 ## Current agent-protocol implementation
 
@@ -73,8 +85,10 @@ A different agent surface would be a North Star change, not a constitutional ame
 | `--force` refreshes an existing checker; bare import keeps it | Always clobber, or a package manager | Catalog default; same `copy_file` as KERNEL |
 | Status grammar unified in unit 1 | Leave two dialects | Learned; do not reopen |
 | Freeze 4–7 after v1 | Open hooks/CI next (inevitable) | Minimum mechanism; learning is in TaxiLabs |
+| Encode destination pressure as row 8 | Thaw 4–7, or patch TaxiLabs only | The skip was a missing kernel law, not skipped invocation |
 
 ## How to resume
 
-`WORKING_STATE.md`. Constitution v1.0 accepted. Ladder v1.2 (amendment 002
-freeze). Do not open unit 4. Next work is in `taxi-labs-customer-intelligence`.
+`WORKING_STATE.md`. Constitution v1.1 (amendment 003). Ladder v1.3. Next:
+reconstruct 003, then `/unit-unlock` on **8**. Do not open unit 4. Do not
+resume TaxiLabs 007 until row 8 closes.
