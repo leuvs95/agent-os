@@ -2,34 +2,37 @@
 
 **Resume here.** Not a substrate. Not the constitution.
 
+## Frozen
+
+Amendment **002** (`docs/north-star/AMENDMENTS/002-freeze-until-product.md`).
+Ladder v1.2. Do not open rows 4–7. Do not stamp `1.0.0` unless the owner names it.
+
+Rule of thumb: Agent OS serves TaxiLabs CI. TaxiLabs CI does not wait for
+Agent OS.
+
 ## Did
 
-Unit 3 on `main` via fast-forward (one parent at tip). Branch
-`unit/3-import-check` deleted. Gate 3 PASS. Reconstruct pass.
+- v1 rows 1–3 on `main` (Status grammar, identity, import-the-check).
+- Owner froze later rows (2026-08-21). Useful-enough bar, not inevitability.
+- Import into `~/Clients/HT/taxi-labs-customer-intelligence`.
 
 ## Next
 
-Do not open unit 4 (hooks) until you choose. Do not stamp `1.0.0` until
-you name it. v1 destination is ladder rows 1–3.
+Nothing in this repo. Product work is taxi-labs-customer-intelligence.
 
-## Learning gate (unit 3)
-
-- Capability: after import, a stranger can run `scripts/agent-os-check.sh --range`.
-- Boundary: not hooks, not CI, not `--staged` hook, not detached HEAD, not
-  `status_of()` / frozen 30.
-- Reconstruct: **pass**. No snag files.
-- Afraid to change: `status_of()` / MMU grammar; frozen 30; bare import vs
-  `--force`.
+Thaw of 4–7 is `/amend-north-star` (003+), only after a product skip costs
+something or a second product imports.
 
 ## Do not
 
-- Stamp `1.0.0` (owner names that after rows 1–3 are on `main`)
-- Install hooks or a GitHub workflow
+- Open unit 4 (hooks), 5 (workflow), 6 (ceremony), or 7 (dogfood)
+- Stamp `1.0.0` without the owner naming it
 - Weaken the MMU so detached HEAD counts as a unit branch
-- Open unit 4 on this close
+- Treat WORKING_STATE as a thaw
 
 ## Pointers
 
-- Gate: `docs/agent-os/gates/3.md` (PASS)
+- Freeze: `docs/north-star/AMENDMENTS/002-freeze-until-product.md`
+- Ladder: `docs/north-star/LADDER.md` (v1.2)
 - Catalog: `docs/agent-os/CATALOG.md`
-- Unit 2: `docs/agent-os/gates/2.md`
+- Gates 1–3: `docs/agent-os/gates/{1,2,3}.md`

@@ -94,6 +94,13 @@ Reconsider when: unit 3 closed; hooks are unit 4
 Risk: Pack exemption no-ops the checker on this repo.
 Lens: judgment
 Default if we stop talking: we cannot feel the lock we sell
-Independent gate / eval: none in v1 (deferred unit 7)
+Independent gate / eval: none in v1 (deferred unit 7; frozen by 002)
 Seat: engineering
 Reconsider when: product-shaped check can run without weakening MMU
+
+Risk: Opening kernel rows 4–7 before a product uses the pack makes the detour the project.
+Lens: purpose
+Default if we stop talking: TaxiLabs waits on hooks/CI/dogfood; Agent OS stays the product
+Independent gate / eval: `docs/north-star/AMENDMENTS/002-freeze-until-product.md` — no `unit/4-*` (or 5–7) until thaw
+Seat: owner
+Reconsider when: taxi-labs-customer-intelligence (or a second importer) skips the protocol and it costs something

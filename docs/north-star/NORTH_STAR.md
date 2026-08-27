@@ -18,15 +18,21 @@ Ship ladder units **1–3** (see `LADDER.md`). That is the current release, not 
 2. VERSION / CHANGELOG / README name the MMU and match what import ships.
 3. Import copies `scripts/agent-os-check.sh`. README states the one stranger command.
 
-## Not this release
+## Frozen (amendment 002)
 
-Named later rows (ladder v1.1). Do not open until Depends-on is accepted.
-Hub substrate library stays rejected (not a unit).
+v1 (rows 1–3) is shipped. This instance does **not** open rows 4–7 until a
+product that imported the kernel skips the protocol and it costs something,
+or a second product imports. Thaw via `/amend-north-star`.
 
-- **4** — local default-on (`install-hooks.sh`, `--staged`)
-- **5** — remote default-on (workflow, rebase not merge, detached HEAD is not a unit branch)
-- **6** — ceremony (P0–P5 vs lenses; unit-blog not kernel)
-- **7** — dogfood this repo without weakening the MMU
+Agent OS serves TaxiLabs CI. TaxiLabs CI does not wait for Agent OS.
+
+Named later rows stay on the ladder (not deleted). Hub substrate library
+stays rejected (not a unit).
+
+- **4** — local default-on (`install-hooks.sh`, `--staged`) — frozen
+- **5** — remote default-on (workflow, rebase not merge) — frozen
+- **6** — ceremony (P0–P5 vs lenses; unit-blog not kernel) — frozen
+- **7** — dogfood this repo without weakening the MMU — frozen
 
 ## Current agent-protocol implementation
 
@@ -66,7 +72,9 @@ A different agent surface would be a North Star change, not a constitutional ame
 | Pack exemption (KERNEL in pack/) | Dogfood the MMU on this repo in v1 | Exemption is shape assertion, not product escape |
 | `--force` refreshes an existing checker; bare import keeps it | Always clobber, or a package manager | Catalog default; same `copy_file` as KERNEL |
 | Status grammar unified in unit 1 | Leave two dialects | Learned; do not reopen |
+| Freeze 4–7 after v1 | Open hooks/CI next (inevitable) | Minimum mechanism; learning is in TaxiLabs |
 
 ## How to resume
 
-`WORKING_STATE.md`. Constitution v1.0 accepted. Ladder v1.1 (amendment 001).
+`WORKING_STATE.md`. Constitution v1.0 accepted. Ladder v1.2 (amendment 002
+freeze). Do not open unit 4. Next work is in `taxi-labs-customer-intelligence`.
